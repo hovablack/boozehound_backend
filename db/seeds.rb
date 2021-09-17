@@ -7,12 +7,6 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-Drink.create([
-  {name: "vodka", description: "a European clear distilled alcoholic beverage"}
-  {name: "screwdriver", description: "an alcoholic drink made with orange juice and vodka"}
-  {name: "whiskey sour", description: "a mixed drink made with whiskey, lemon juice, and sugar or syrup"}
-])
-
 vodka = Drink.create(name: "vodka", description: "a European clear distilled alcoholic beverage", image_url: "https://www.writework.com/uploads/17/170779/image29.jpg")
 screwdriver = Drink.create(name: "screwdriver", description: "an alcoholic drink made with orange juice and vodka", image_url: "https://www.thecocktaildb.com/images/media/drink/8xnyke1504352207.jpg")
 whiskeysour = Drink.create(name: "whiskey sour", description: "a mixed drink made with whiskey, lemon juice, and sugar or syrup", image_url: "https://www.thecocktaildb.com/images/media/drink/hbkfsh1589574990.jpg")
