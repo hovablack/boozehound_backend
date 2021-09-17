@@ -17,7 +17,7 @@ class Api::V1::DrinksController < ApplicationController
   private
 
   def set_drink
-    
+    drink = Drink.find(params[:id])
   end
 
   def drink_params
