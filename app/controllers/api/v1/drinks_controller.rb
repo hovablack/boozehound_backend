@@ -2,7 +2,7 @@ class Api::V1::DrinksController < ApplicationController
 
   def index
     drinks = Drink.all
-    render json: drinks
+    render json: DrinkSerializer.new(drinks, {include: [:reviews]})
   end
   
   def create
